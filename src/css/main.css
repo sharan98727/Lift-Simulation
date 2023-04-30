@@ -1,0 +1,34 @@
+.lift-simulation-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.individual-floor {
+    height: 200px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.lift {
+    width: 75px;
+    height: 75px;
+    background-color: brown;
+    margin: 0 30px;
+    align-self: flex-end;
+    position: relative;
+    top: 0;
+    /* transition: top 4s ease;
+    transform: translateY(-150px); */
+}
